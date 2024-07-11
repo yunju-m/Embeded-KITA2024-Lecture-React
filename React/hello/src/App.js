@@ -6,11 +6,12 @@
 // import ReactEvents from "./4.ReactEvents";
 // import StringReader from "./5.StringReader";
 // import NumberCounter from "./6.NumberCounter";
-import ReactUseState from "./7.ReactUseState";
+// import ReactUseState from "./7.ReactUseState";
+import GetData from "./8.GetData";
 
 function App() {
   return (
-    <ReactUseState />
+    <GetData />
   );
 }
 
