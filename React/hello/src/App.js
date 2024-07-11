@@ -5,11 +5,12 @@
 // import ReactProps from "./3.ReactPros";
 // import ReactEvents from "./4.ReactEvents";
 // import StringReader from "./5.StringReader";
-import NumberCounter from "./6.NumberCounter";
+// import NumberCounter from "./6.NumberCounter";
+import ReactUseState from "./7.ReactUseState";
 
 function App() {
   return (
-    <NumberCounter />
+    <ReactUseState />
   );
 }
 
