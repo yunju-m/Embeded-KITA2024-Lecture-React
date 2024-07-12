@@ -8,11 +8,12 @@
 // import NumberCounter from "./6.NumberCounter";
 // import ReactUseState from "./7.ReactUseState";
 // import GetData from "./8.GetData";
-import ReactLayout from "./9.ReactLayout";
+// import ReactLayout from "./9.ReactLayout";
+import ReactStyledComponent from "./10.ReactStyledComponent";
 
 function App() {
   return (
-    <ReactLayout />
+    <ReactStyledComponent />
   );
 }
 
