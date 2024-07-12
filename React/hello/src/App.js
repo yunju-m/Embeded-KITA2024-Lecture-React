@@ -9,11 +9,12 @@
 // import ReactUseState from "./7.ReactUseState";
 // import GetData from "./8.GetData";
 // import ReactLayout from "./9.ReactLayout";
-import ReactStyledComponent from "./10.ReactStyledComponent";
+// import ReactStyledComponent from "./10.ReactStyledComponent";
+import ReactContextAPI from "./11.ReactContextAPI";
 
 function App() {
   return (
-    <ReactStyledComponent />
+    <ReactContextAPI />
   );
 }
 
