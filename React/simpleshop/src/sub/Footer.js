@@ -2,7 +2,9 @@ import '../css/Footer.css'
 
 function Footer(props) {
     return (
-        <footer>{props.footerText}</footer>
+        <footer>
+            <p>{props.footerText}</p>
+        </footer>
     );
 }
 

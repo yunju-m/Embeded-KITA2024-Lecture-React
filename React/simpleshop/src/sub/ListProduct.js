@@ -1,12 +1,7 @@
 import '../css/ListProduct.css'
-// import Product from './Product';
 import { useState, useEffect } from 'react';
 import { Routes, Route, NavLink } from 'react-router-dom';
 import DetailProduct from './DetailProduct';
-import NotFound from './NotFound';
-import Main from '../Main';
-
-// const productList = [];
 
 function ListProduct() {
 
@@ -23,26 +18,20 @@ function ListProduct() {
             })
     }, []);
 
-    const gotoDetail = (pno) => {
-        return (
-            <NavLink to={`/product/${pno}`}></NavLink>
-        );
-    }
-
     return (
         <div id='productList'>
             {products.map(
                 product =>
-                    <article key={product.pno} onClick={() => gotoDetail(product.pno)}>
-                        <img src={`/img/${product.pimg}`} alt={product.pno} />
-                        <p>{product.ptitle}</p>
-                        <p>{product.pprice}</p>
+                    <article key={product.pno}>
+                        <NavLink to={`/product/${product.pno}`}>
+                            <img src={`/img/${product.pimg}`} alt={product.pno} />
+                            <p>{product.ptitle}</p>
+                            <p>{product.pprice}원</p>
+                        </NavLink>
                     </article>
             )}
             <Routes>
-                <Route path='/' element={<Main />} />
-                <Route path='/:pid' element={<DetailProduct />} />
-                <Route path='/*' element={<NotFound />} />
+                <Route path='/product/:pid' element={<DetailProduct />} />
             </Routes>
         </div >
     );
