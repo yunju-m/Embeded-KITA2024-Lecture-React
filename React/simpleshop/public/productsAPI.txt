@@ -1,0 +1,58 @@
+[
+    {
+        "pno": 1,
+        "ptitle": "사과",
+        "pcontent": "신선하고 달콤한 사과입니다.",
+        "pimg": "productImg1.jpg",
+        "pprice": 2500
+    },
+    {
+        "pno": 2,
+        "ptitle": "시계",
+        "pcontent": "스타일리시한 디자인의 시계입니다.",
+        "pimg": "productImg2.jpg",
+        "pprice": 49900
+    },
+    {
+        "pno": 3,
+        "ptitle": "향수",
+        "pcontent": "고급스러운 향수입니다.",
+        "pimg": "productImg3.jpg",
+        "pprice": 89000
+    },
+    {
+        "pno": 4,
+        "ptitle": "마카롱",
+        "pcontent": "다채로운 색상의 부드러운 마카롱입니다.",
+        "pimg": "productImg4.jpg",
+        "pprice": 3500
+    },
+    {
+        "pno": 5,
+        "ptitle": "카메라",
+        "pcontent": "고화질 사진을 찍을 수 있는 카메라입니다.",
+        "pimg": "productImg5.jpg",
+        "pprice": 299000
+    },
+    {
+        "pno": 6,
+        "ptitle": "화장품",
+        "pcontent": "피부에 좋은 자연 성분으로 만든 화장품입니다.",
+        "pimg": "productImg6.jpg",
+        "pprice": 39900
+    },
+    {
+        "pno": 7,
+        "ptitle": "노트북",
+        "pcontent": "성능 좋은 노트북입니다.",
+        "pimg": "productImg7.jpg",
+        "pprice": 1199000
+    },
+    {
+        "pno": 8,
+        "ptitle": "꽃",
+        "pcontent": "아름다운 꽃다발입니다.",
+        "pimg": "productImg8.jpg",
+        "pprice": 19900
+    }
+]

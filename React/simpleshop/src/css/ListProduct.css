@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#productList {
+    width: 850px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+div>article {
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
