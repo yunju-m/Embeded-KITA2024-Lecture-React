@@ -7,11 +7,12 @@
 // import StringReader from "./5.StringReader";
 // import NumberCounter from "./6.NumberCounter";
 // import ReactUseState from "./7.ReactUseState";
-import GetData from "./8.GetData";
+// import GetData from "./8.GetData";
+import ReactLayout from "./9.ReactLayout";
 
 function App() {
   return (
-    <GetData />
+    <ReactLayout />
   );
 }
 
