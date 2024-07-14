@@ -5,9 +5,14 @@
 
 #productList {
     width: 850px;
+    height: 550px;
     margin: 0 auto;
-    overflow: hidden;
+    overflow: scroll;
     padding-top: 10px;
+}
+
+#productList::-webkit-scrollbar {
+    display: none;
 }
 
 div>article {
