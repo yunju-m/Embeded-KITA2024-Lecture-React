@@ -4,7 +4,6 @@ import { Routes, Route, NavLink } from 'react-router-dom';
 import DetailProduct from './DetailProduct';
 
 function ListProduct() {
-
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
@@ -23,8 +22,8 @@ function ListProduct() {
             {products.map(
                 product =>
                     <article key={product.pno}>
-                        <NavLink to={`/product/${product.pno}`}>
-                            <img src={`/img/${product.pimg}`} alt={product.pno} />
+                        <NavLink to={`/product/${product.pno}`} state={{ product }}>
+                            <img src={`/img/${product.pimg}`} alt={product.pno} className='productListImg' />
                             <p>{product.ptitle}</p>
                             <p>{product.pprice}원</p>
                         </NavLink>
