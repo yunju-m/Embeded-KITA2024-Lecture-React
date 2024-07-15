@@ -11,11 +11,12 @@
 // import ReactLayout from "./9.ReactLayout";
 // import ReactStyledComponent from "./10.ReactStyledComponent";
 // import ReactContextAPI from "./11.ReactContextAPI";
-import ReactReducer from "./12.ReactReducer";
+// import ReactReducer from "./12.ReactReducer";
+import ReactCalc from "./13.ReactCalc";
 
 function App() {
   return (
-    <ReactReducer />
+    <ReactCalc />
   );
 }
 
