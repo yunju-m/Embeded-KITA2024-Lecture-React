@@ -10,11 +10,12 @@
 // import GetData from "./8.GetData";
 // import ReactLayout from "./9.ReactLayout";
 // import ReactStyledComponent from "./10.ReactStyledComponent";
-import ReactContextAPI from "./11.ReactContextAPI";
+// import ReactContextAPI from "./11.ReactContextAPI";
+import ReactReducer from "./12.ReactReducer";
 
 function App() {
   return (
-    <ReactContextAPI />
+    <ReactReducer />
   );
 }
 
