@@ -12,11 +12,12 @@
 // import ReactStyledComponent from "./10.ReactStyledComponent";
 // import ReactContextAPI from "./11.ReactContextAPI";
 // import ReactReducer from "./12.ReactReducer";
-import ReactCalc from "./13.ReactCalc";
+// import ReactCalc from "./13.ReactCalc";
+import ReactRedux from "./14.ReactRedux";
 
 function App() {
   return (
-    <ReactCalc />
+    <ReactRedux />
   );
 }
 
